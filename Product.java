@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Product {
     public static int calculateProduct(int a, int b){
     int product = a*b;
+    System.out.println(product);
     return product;
     }
     public static void main(String[] args) {
@@ -11,7 +12,7 @@ public class Product {
         int a = sc.nextInt();
         System.out.println("Enter b");
         int b = sc.nextInt();
-        System.out.println("The Product of a and b is:" +calculateProduct(a, b));
+        calculateProduct(a, b);
         sc.close();
     }
 }
