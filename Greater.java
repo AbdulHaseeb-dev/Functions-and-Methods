@@ -7,6 +7,7 @@ public class Greater {
     }else {
         System.out.println(b);
     }
+    return;
 
     }
     public static void main (String[] args){
